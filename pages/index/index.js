@@ -10,10 +10,10 @@ Page({
   onLoad: function () {
     var that = this
     let files = [
-      "http://legox.yy.com/svga/svga-weixin/HamburgerArrow.wx.svga",
-      "http://legox.yy.com/svga/svga-weixin/PinJump.wx.svga",
-      "http://legox.yy.com/svga/svga-weixin/TwitterHeart.wx.svga",
-      "http://legox.yy.com/svga/svga-weixin/Walkthrough.wx.svga",
+      "https://raw.githubusercontent.com/yyued/SVGAPlayer-WeChat/master/res/HamburgerArrow.wx.svga",
+      "https://raw.githubusercontent.com/yyued/SVGAPlayer-WeChat/master/res/PinJump.wx.svga",
+      "https://raw.githubusercontent.com/yyued/SVGAPlayer-WeChat/master/res/TwitterHeart.wx.svga",
+      "https://raw.githubusercontent.com/yyued/SVGAPlayer-WeChat/master/res/Walkthrough.wx.svga",
     ];
     let player = new SVGAPlayer('canvas', wx.getSystemInfoSync().windowWidth, 500);
     let parser = new SVGAParser();
