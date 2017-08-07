@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas style="width: 100%; height: 500px; background-color: black;" canvas-id="canvas"></canvas>
+</view>

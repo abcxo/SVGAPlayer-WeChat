@@ -1,0 +1,6 @@
+/**index.wxss**/
+
+.testbox {
+  width: 500rpx;
+  height: 500rpx;
+}
